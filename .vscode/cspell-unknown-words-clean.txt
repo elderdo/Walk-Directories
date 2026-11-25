@@ -1,0 +1,14 @@
+devenv
+DOSKEY
+LOCALAPPDATA
+mern
+nircmd
+OTBS
+pscustomobject
+randomuser
+rundll
+setdefaultsounddevice
+sysdm
+UDEMY
+windir
+yourdomain

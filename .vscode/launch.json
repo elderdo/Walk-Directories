@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Walk-Dirs: Default (with AutoList)",
+      "type": "powershell",
+      "request": "launch",
+      "program": "${workspaceFolder}\\Walk-Dirs.ps1",
+      "args": ["directories.txt", "-AutoList"],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Walk-Dirs: Without AutoList",
+      "type": "powershell",
+      "request": "launch",
+      "program": "${workspaceFolder}\\Walk-Dirs.ps1",
+      "args": ["directories.txt"],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Walk-Dirs: Custom List File",
+      "type": "powershell",
+      "request": "launch",
+      "program": "${workspaceFolder}\\Walk-Dirs.ps1",
+      "args": ["dirs.txt", "-AutoList"],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

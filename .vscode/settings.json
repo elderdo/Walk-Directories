@@ -1,0 +1,41 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["launch.json"],
+      "url": "https://raw.githubusercontent.com/microsoft/vscode-json-languageservice/main/test/fixtures/launch.json"
+    }
+  ],
+  "audioCues.enabled": "off",
+  "[powershell]": {
+    "editor.quickSuggestions": {
+      "other": false,
+      "comments": false,
+      "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.inlineSuggest.enabled": false,
+    "github.copilot.nextEditSuggestions.enabled": false
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "powershell": false
+  },
+  "cSpell.words": [
+    "devenv",
+    "DOSKEY",
+    "LOCALAPPDATA",
+    "mern",
+    "nircmd",
+    "OTBS",
+    "pscustomobject",
+    "randomuser",
+    "rundll",
+    "setdefaultsounddevice",
+    "subshell",
+    "sysdm",
+    "toplevel",
+    "UDEMY",
+    "windir",
+    "yourdomain"
+  ]
+}
